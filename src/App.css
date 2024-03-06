@@ -1,0 +1,12 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-top {
+    position: absolute!important;
+    right: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
